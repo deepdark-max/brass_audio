@@ -1,0 +1,9 @@
+
+const B64 = "";
+
+export default (() => {
+  throw new Error(`compilation failed:
+J:/Scoop/apps/gcc/13.2.0/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -ldl: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+`);
+})();

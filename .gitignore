@@ -1,0 +1,14 @@
+# Build artifacts
+brassAudio.dll
+brassAudio.so
+brassAudio.dylib
+native/*/export.dll
+native/*/export.so
+native/*/export.dylib
+
+# Temp / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
